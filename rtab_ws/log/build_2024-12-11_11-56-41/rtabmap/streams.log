@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/shrirag10/rtab_ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/shrirag10/rtab_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/shrirag10/rtab_ws/install/rtabmap
+[0.055s] -- MOBILE_BUILD=OFF
+[0.066s] [31mCMake Error at CMakeLists.txt:237 (FIND_PACKAGE):
+[0.066s]   By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has
+[0.066s]   asked CMake to find a package configuration file provided by "OpenCV", but
+[0.066s]   CMake did not find one.
+[0.066s] 
+[0.067s]   Could not find a package configuration file provided by "OpenCV" with any
+[0.067s]   of the following names:
+[0.067s] 
+[0.067s]     OpenCVConfig.cmake
+[0.067s]     opencv-config.cmake
+[0.067s] 
+[0.067s]   Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set
+[0.067s]   "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"
+[0.067s]   provides a separate development package or SDK, be sure it has been
+[0.067s]   installed.
+[0.067s] 
+[0.067s] [0m
+[0.067s] -- Configuring incomplete, errors occurred!
+[0.067s] See also "/home/shrirag10/rtab_ws/build/rtabmap/CMakeFiles/CMakeOutput.log".
+[0.067s] See also "/home/shrirag10/rtab_ws/build/rtabmap/CMakeFiles/CMakeError.log".
+[0.174s] Invoked command in '/home/shrirag10/rtab_ws/build/rtabmap' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/shrirag10/rtab_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/shrirag10/rtab_ws/install/rtabmap

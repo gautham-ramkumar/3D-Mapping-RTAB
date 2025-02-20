@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-668d513a9abdf15d64dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "zed_msgs__py",
+					"jsonFile" : "directory-zed_msgs__py-Release-0a62bd6fe2b799346247.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/shrirag10/rtab_ws/build/zed_msgs/zed_msgs__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "zed_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_msgs_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_msgs_files-Release-4fef98c0c578f6b53d1c.json",
+					"name" : "all_zed_msgs_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_zed_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_zed_msgs_egg-Release-c944d96df32503140079.json",
+					"name" : "ament_cmake_python_build_zed_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_zed_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_zed_msgs-Release-3fbb3fd4193ebfbdee39.json",
+					"name" : "ament_cmake_python_symlink_zed_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7e4288fa3872fc5db922.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs-Release-a1234289f22f0d01ba89.json",
+					"name" : "zed_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__cpp-Release-588330a88afac5712e92.json",
+					"name" : "zed_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zed_msgs__py::@b73c147196348a6ee048",
+					"jsonFile" : "target-zed_msgs__py-Release-aac52622a72d76735776.json",
+					"name" : "zed_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_generator_c-Release-661039a3c56365808d00.json",
+					"name" : "zed_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_generator_py-Release-57a04987f59f6282a08b.json",
+					"name" : "zed_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_c-Release-32aa6df30ab62978b409.json",
+					"name" : "zed_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_c__pyext-Release-1050bd71d4262d74482b.json",
+					"name" : "zed_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_cpp-Release-dca9c40cb6f25e14c093.json",
+					"name" : "zed_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_fastrtps_c-Release-baee8e9e4c11a23b1f2f.json",
+					"name" : "zed_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-4c6ff181fabb45dde4e6.json",
+					"name" : "zed_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_fastrtps_cpp-Release-c9d4e67399cf3d19efa0.json",
+					"name" : "zed_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_introspection_c-Release-263d8d4d5954868e17d0.json",
+					"name" : "zed_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_introspection_c__pyext-Release-2d3269a11c1c635b5afc.json",
+					"name" : "zed_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_introspection_cpp-Release-714a01f601463246f5fa.json",
+					"name" : "zed_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs_uninstall-Release-fec43d3e48e49689f097.json",
+					"name" : "zed_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shrirag10/rtab_ws/build/zed_msgs",
+		"source" : "/home/shrirag10/rtab_ws/src/zed-ros2-wrapper/zed-ros2-interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

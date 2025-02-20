@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rtabmap_msgs__py",
+		"source" : "/home/shrirag10/rtab_ws/build/rtabmap_msgs/rtabmap_msgs__py"
+	}
+}

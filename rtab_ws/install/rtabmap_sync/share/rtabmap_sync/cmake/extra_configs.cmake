@@ -1,0 +1,1 @@
+/home/shrirag10/rtab_ws/build/rtabmap_sync/cmake/extra_configs.cmake

@@ -1,0 +1,1 @@
+/home/shrirag10/rtab_ws/build/rtabmap_viz/ament_cmake_core/rtabmap_vizConfig.cmake

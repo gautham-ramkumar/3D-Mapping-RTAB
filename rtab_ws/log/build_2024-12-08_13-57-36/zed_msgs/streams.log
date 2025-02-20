@@ -1,0 +1,434 @@
+[0.015s] Invoking command in '/home/shrirag10/rtab_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/shrirag10/rtab_ws/build/zed_msgs
+[0.084s] [  0%] Built target zed_msgs__cpp
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_cpp[0m
+[0.119s] [ 12%] Built target zed_msgs__rosidl_typesupport_cpp
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_generator_c[0m
+[0.145s] [ 24%] Built target zed_msgs__rosidl_generator_c
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.181s] [ 36%] Built target zed_msgs__rosidl_typesupport_fastrtps_c
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.220s] [ 48%] Built target zed_msgs__rosidl_typesupport_fastrtps_cpp
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_introspection_c[0m
+[0.251s] [ 60%] Built target zed_msgs__rosidl_typesupport_introspection_c
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_c[0m
+[0.276s] [ 72%] Built target zed_msgs__rosidl_typesupport_c
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.318s] [ 84%] Built target zed_msgs__rosidl_typesupport_introspection_cpp
+[0.341s] [ 84%] Built target zed_msgs
+[0.365s] [ 84%] Built target ament_cmake_python_symlink_zed_msgs
+[0.519s] running egg_info
+[0.520s] writing zed_msgs.egg-info/PKG-INFO
+[0.520s] writing dependency_links to zed_msgs.egg-info/dependency_links.txt
+[0.520s] writing top-level names to zed_msgs.egg-info/top_level.txt
+[0.522s] reading manifest file 'zed_msgs.egg-info/SOURCES.txt'
+[0.522s] writing manifest file 'zed_msgs.egg-info/SOURCES.txt'
+[0.543s] [ 84%] Built target ament_cmake_python_build_zed_msgs_egg
+[0.565s] [ 85%] Built target zed_msgs__py
+[0.583s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_generator_py[0m
+[0.602s] [ 96%] Built target zed_msgs__rosidl_generator_py
+[0.612s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.624s] [ 97%] Built target zed_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.635s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.646s] [ 99%] Built target zed_msgs__rosidl_typesupport_introspection_c__pyext
+[0.654s] [35m[1mConsolidate compiler generated dependencies of target zed_msgs__rosidl_typesupport_c__pyext[0m
+[0.664s] [100%] Built target zed_msgs__rosidl_typesupport_c__pyext
+[0.672s] Invoked command in '/home/shrirag10/rtab_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/shrirag10/rtab_ws/build/zed_msgs
+[0.680s] Invoking command in '/home/shrirag10/rtab_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/shrirag10/rtab_ws/build/zed_msgs
+[0.687s] -- Install configuration: "Release"
+[0.687s] -- Execute custom install script
+[0.688s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/ament_index/resource_index/rosidl_interfaces/zed_msgs
+[0.689s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.h
+[0.689s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.h
+[0.689s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.h
+[0.689s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.h
+[0.689s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__functions.h
+[0.689s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.h
+[0.689s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__functions.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__functions.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__functions.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.h
+[0.690s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__functions.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__functions.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__functions.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__functions.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.h
+[0.691s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__functions.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__functions.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__functions.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__functions.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.h
+[0.692s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__functions.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__functions.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__functions.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__functions.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.h
+[0.693s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.h
+[0.694s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__functions.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__functions.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__functions.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.h
+[0.695s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.h
+[0.696s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.h
+[0.696s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.h
+[0.696s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.h
+[0.696s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/environment/library_path.sh
+[0.696s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/environment/library_path.dsv
+[0.697s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h
+[0.697s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h
+[0.697s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h
+[0.700s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h
+[0.700s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.700s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[0.700s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h
+[0.700s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h
+[0.701s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.hpp
+[0.701s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.hpp
+[0.701s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.hpp
+[0.702s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.hpp
+[0.702s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__builder.hpp
+[0.702s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.hpp
+[0.702s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__traits.hpp
+[0.702s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__builder.hpp
+[0.702s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__traits.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__builder.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__traits.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__builder.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__traits.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__builder.hpp
+[0.703s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__traits.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__builder.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__traits.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__builder.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__traits.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__builder.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__traits.hpp
+[0.704s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__builder.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__traits.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__builder.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__traits.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__builder.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__traits.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__builder.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__traits.hpp
+[0.705s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__builder.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__traits.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__builder.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__traits.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__builder.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__traits.hpp
+[0.706s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__builder.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__traits.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.hpp
+[0.707s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__builder.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__traits.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__builder.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__traits.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__builder.hpp
+[0.708s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.hpp
+[0.709s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__traits.hpp
+[0.709s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.hpp
+[0.709s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.hpp
+[0.709s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.hpp
+[0.709s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[0.709s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[0.710s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.711s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_cpp.hpp
+[0.714s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.sh
+[0.715s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.dsv
+[0.716s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-4.2.2-py3.10.egg-info/PKG-INFO
+[0.716s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-4.2.2-py3.10.egg-info/SOURCES.txt
+[0.716s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-4.2.2-py3.10.egg-info/dependency_links.txt
+[0.716s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-4.2.2-py3.10.egg-info/top_level.txt
+[0.717s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py
+[0.717s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c
+[0.717s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.717s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.717s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/libzed_msgs__rosidl_generator_py.so
+[0.717s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py
+[0.717s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py
+[0.717s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df_s.c
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di_s.c
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d_s.c
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped_s.c
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status_s.c
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat_s.c
+[0.718s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df_s.c
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di_s.c
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d_s.c
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status_s.c
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py
+[0.719s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object_s.c
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped_s.c
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped_s.c
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status_s.c
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d_s.c
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py
+[0.720s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d_s.c
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose_s.c
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi_s.c
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec_s.c
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.721s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.722s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.722s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Object.idl
+[0.722s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.idl
+[0.722s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.idl
+[0.722s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.idl
+[0.722s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.idl
+[0.722s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.idl
+[0.723s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.idl
+[0.723s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.idl
+[0.723s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.idl
+[0.723s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.idl
+[0.723s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.idl
+[0.723s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.idl
+[0.723s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.idl
+[0.724s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.idl
+[0.724s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.idl
+[0.724s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.idl
+[0.724s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.idl
+[0.724s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.idl
+[0.724s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.idl
+[0.725s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Object.msg
+[0.725s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.msg
+[0.725s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.msg
+[0.725s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.msg
+[0.725s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.msg
+[0.725s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.msg
+[0.725s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.msg
+[0.725s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.msg
+[0.726s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.srv
+[0.727s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Request.msg
+[0.727s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Response.msg
+[0.727s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.srv
+[0.727s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Request.msg
+[0.727s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Response.msg
+[0.727s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.srv
+[0.727s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Request.msg
+[0.727s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Response.msg
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/virtual.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/zed.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/zed2.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/zed2i.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/zedm.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/zedx.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/zedxm.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/zedxone4k.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/meshes/zedxonegs.stl
+[0.728s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/ament_index/resource_index/package_run_dependencies/zed_msgs
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/ament_index/resource_index/parent_prefix_path/zed_msgs
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.sh
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.dsv
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/environment/path.sh
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/environment/path.dsv
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/local_setup.bash
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/local_setup.sh
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/local_setup.zsh
+[0.729s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/local_setup.dsv
+[0.730s] -- Symlinking: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/package.dsv
+[0.737s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/ament_index/resource_index/packages/zed_msgs
+[0.737s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake-extras.cmake
+[0.737s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.737s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.737s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.738s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.738s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.738s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.738s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig.cmake
+[0.738s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig-version.cmake
+[0.738s] -- Up-to-date symlink: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/package.xml
+[0.739s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so
+[0.739s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so
+[0.740s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.740s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so
+[0.740s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so
+[0.741s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so
+[0.741s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so
+[0.767s] Listing '/home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs'...
+[0.767s] Listing '/home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg'...
+[0.768s] Listing '/home/shrirag10/rtab_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv'...
+[0.772s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so
+[0.772s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport.cmake
+[0.772s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport-release.cmake
+[0.772s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.772s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.773s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cppExport.cmake
+[0.773s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.773s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.773s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.773s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.774s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport.cmake
+[0.774s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport-release.cmake
+[0.774s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.774s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.774s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport.cmake
+[0.774s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.774s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport.cmake
+[0.774s] -- Up-to-date: /home/shrirag10/rtab_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport-release.cmake
+[0.784s] Invoked command in '/home/shrirag10/rtab_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/shrirag10/rtab_ws/build/zed_msgs

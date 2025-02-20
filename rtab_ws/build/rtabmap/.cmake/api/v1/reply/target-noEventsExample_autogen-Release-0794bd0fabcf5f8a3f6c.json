@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"examples/NoEventsExample/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "rtabmap_gui::@527b59fb50a536c5504e"
+		}
+	],
+	"id" : "noEventsExample_autogen::@84c39694f78271f7ab67",
+	"isGeneratorProvided" : true,
+	"name" : "noEventsExample_autogen",
+	"paths" : 
+	{
+		"build" : "examples/NoEventsExample",
+		"source" : "examples/NoEventsExample"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap/examples/NoEventsExample/CMakeFiles/noEventsExample_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap/examples/NoEventsExample/CMakeFiles/noEventsExample_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

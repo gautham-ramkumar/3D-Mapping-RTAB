@@ -1,0 +1,1 @@
+Invoking command in '/home/shrirag10/rtab_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/shrirag10/rtab_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/shrirag10/rtab_ws/install/zed_msgs

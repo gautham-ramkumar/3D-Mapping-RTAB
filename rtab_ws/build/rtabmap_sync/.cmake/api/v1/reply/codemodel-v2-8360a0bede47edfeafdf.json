@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2a33c4360fe755e86a34.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_sync",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rgb_sync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rgb_sync-Release-e39101c86694eaaf63f6.json",
+					"name" : "rtabmap_rgb_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rgbd_sync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rgbd_sync-Release-098eea34dc11374a7592.json",
+					"name" : "rtabmap_rgbd_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rgbdx_sync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rgbdx_sync-Release-61664245e9533dd3e563.json",
+					"name" : "rtabmap_rgbdx_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_stereo_sync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_stereo_sync-Release-70f29382d9e88c3342c9.json",
+					"name" : "rtabmap_stereo_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_sync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_sync-Release-b5d5cd84d8633da51fb4.json",
+					"name" : "rtabmap_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_sync_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_sync_plugins-Release-e6b67754304564bf752d.json",
+					"name" : "rtabmap_sync_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_sync_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_sync_uninstall-Release-0b12e851231897c34d15.json",
+					"name" : "rtabmap_sync_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-70215f02428a753acc0e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shrirag10/rtab_ws/build/rtabmap_sync",
+		"source" : "/home/shrirag10/rtab_ws/src/rtabmap_ros/rtabmap_sync"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

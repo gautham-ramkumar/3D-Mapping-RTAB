@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/shrirag10/rtab_ws/build/rtabmap_msgs/rtabmap_msgs__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "rtabmap_msgs::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "rtabmap_msgs__py::@3574366cb3414d9fa8b3",
+	"name" : "rtabmap_msgs__py",
+	"paths" : 
+	{
+		"build" : "rtabmap_msgs__py",
+		"source" : "/home/shrirag10/rtab_ws/build/rtabmap_msgs/rtabmap_msgs__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap_msgs/rtabmap_msgs__py/CMakeFiles/rtabmap_msgs__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap_msgs/rtabmap_msgs__py/CMakeFiles/rtabmap_msgs__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap_msgs/rosidl_generator_py/rtabmap_msgs/_rtabmap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_slam_plugins[0m
+[ 50%] Built target rtabmap_slam_plugins
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_node[0m
+[100%] Built target rtabmap_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/environment/library_path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/environment/library_path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/lib/rtabmap_slam/rtabmap
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/ament_index/resource_index/package_run_dependencies/rtabmap_slam
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/ament_index/resource_index/parent_prefix_path/rtabmap_slam
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/environment/path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/environment/path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.bash
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.zsh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/local_setup.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/package.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/ament_index/resource_index/packages/rtabmap_slam
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/ament_index/resource_index/rclcpp_components/rtabmap_slam
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig-version.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/package.xml
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_slam/lib/librtabmap_slam_plugins.so
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_slam/include
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_slam/include/rtabmap_slam
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_slam/include/rtabmap_slam/CoreWrapper.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_slam/include/rtabmap_slam/visibility.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport.cmake
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport-release.cmake

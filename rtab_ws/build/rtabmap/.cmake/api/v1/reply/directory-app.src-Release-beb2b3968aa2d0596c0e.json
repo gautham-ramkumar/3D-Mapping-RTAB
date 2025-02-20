@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"app/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rtabmap"
+			],
+			"targetId" : "rtabmap_app::@118c54878b8c3f5e9e9e",
+			"targetIndex" : 32,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "app/src",
+		"source" : "app/src"
+	}
+}

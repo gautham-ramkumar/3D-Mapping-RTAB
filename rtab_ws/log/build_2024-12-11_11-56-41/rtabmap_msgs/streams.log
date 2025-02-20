@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/shrirag10/rtab_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/shrirag10/rtab_ws/src/rtabmap_ros/rtabmap_msgs -DCMAKE_INSTALL_PREFIX=/home/shrirag10/rtab_ws/install/rtabmap_msgs
+[0.056s] -- Configuring incomplete, errors occurred!
+[0.056s] See also "/home/shrirag10/rtab_ws/build/rtabmap_msgs/CMakeFiles/CMakeOutput.log".
+[0.056s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.056s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[0.056s]   this project has asked CMake to find a package configuration file provided
+[0.056s]   by "rosidl_default_generators", but CMake did not find one.
+[0.056s] 
+[0.056s]   Could not find a package configuration file provided by
+[0.056s]   "rosidl_default_generators" with any of the following names:
+[0.056s] 
+[0.056s]     rosidl_default_generatorsConfig.cmake
+[0.056s]     rosidl_default_generators-config.cmake
+[0.056s] 
+[0.056s]   Add the installation prefix of "rosidl_default_generators" to
+[0.056s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[0.056s]   containing one of the above files.  If "rosidl_default_generators" provides
+[0.056s]   a separate development package or SDK, be sure it has been installed.
+[0.056s] 
+[0.056s] [0m
+[0.188s] Invoked command in '/home/shrirag10/rtab_ws/build/rtabmap_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/shrirag10/rtab_ws/src/rtabmap_ros/rtabmap_msgs -DCMAKE_INSTALL_PREFIX=/home/shrirag10/rtab_ws/install/rtabmap_msgs

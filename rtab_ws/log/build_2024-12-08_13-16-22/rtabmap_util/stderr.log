@@ -1,0 +1,8 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m** WARNING ** io features related to png will be disabled[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:104: CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:161: CMakeFiles/rtabmap_util_plugins.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

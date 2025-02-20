@@ -1,0 +1,4 @@
+/home/shrirag10/rtab_ws/install/rtabmap_conversions/lib/librtabmap_conversions.so
+/home/shrirag10/rtab_ws/install/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h
+/home/shrirag10/rtab_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport.cmake
+/home/shrirag10/rtab_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport-release.cmake

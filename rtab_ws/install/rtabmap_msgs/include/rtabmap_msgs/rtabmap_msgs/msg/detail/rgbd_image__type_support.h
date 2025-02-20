@@ -1,0 +1,1 @@
+/home/shrirag10/rtab_ws/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/msg/detail/rgbd_image__type_support.h

@@ -1,0 +1,46 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"utilite/resource_generator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rtabmap-res_tool-0.3.0",
+				"bin/rtabmap-res_tool"
+			],
+			"targetId" : "res_tool::@f28c1250daa1d4664e10",
+			"targetIndex" : 27,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "utilite/resource_generator",
+		"source" : "utilite/resource_generator"
+	}
+}

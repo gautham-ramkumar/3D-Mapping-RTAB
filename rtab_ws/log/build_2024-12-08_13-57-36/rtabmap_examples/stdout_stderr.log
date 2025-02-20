@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shrirag10/rtab_ws/build/rtabmap_examples
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/depthai.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/euroc_datasets.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/k4a.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/kinect_xbox_360.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/lidar3d.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/lidar3d_assemble.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/realsense_d400.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/realsense_d435i_color.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/realsense_d435i_infra.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/realsense_d435i_stereo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/rgbdslam_datasets.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/rtabmap_D405x2.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/rtabmap_D405x3.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/vlp16_zed.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/launch/zed.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/config/euroc_left.yaml
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/config/euroc_right.yaml
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/config/slam_D405x2_config.rviz
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/config/slam_D405x3_config.rviz
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/ament_index/resource_index/package_run_dependencies/rtabmap_examples
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/ament_index/resource_index/parent_prefix_path/rtabmap_examples
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/environment/ament_prefix_path.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/environment/path.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/environment/path.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/local_setup.bash
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/local_setup.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/local_setup.zsh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/local_setup.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/package.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/ament_index/resource_index/packages/rtabmap_examples
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/cmake/rtabmap_examplesConfig.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/cmake/rtabmap_examplesConfig-version.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_examples/share/rtabmap_examples/package.xml

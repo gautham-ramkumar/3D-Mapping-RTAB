@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"tools/LidarViewer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rtabmap-lidar_viewer"
+			],
+			"targetId" : "lidar_viewer::@07eeace96e42fe7eb0f7",
+			"targetIndex" : 19,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/LidarViewer",
+		"source" : "tools/LidarViewer"
+	}
+}

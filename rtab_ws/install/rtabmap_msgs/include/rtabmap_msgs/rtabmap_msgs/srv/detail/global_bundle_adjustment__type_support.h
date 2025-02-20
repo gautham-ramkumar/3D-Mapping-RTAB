@@ -1,0 +1,1 @@
+/home/shrirag10/rtab_ws/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/srv/detail/global_bundle_adjustment__type_support.h

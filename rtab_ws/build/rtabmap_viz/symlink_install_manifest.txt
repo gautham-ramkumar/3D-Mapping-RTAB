@@ -1,0 +1,16 @@
+/home/shrirag10/rtab_ws/install/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/ament_index/resource_index/package_run_dependencies/rtabmap_viz
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/ament_index/resource_index/parent_prefix_path/rtabmap_viz
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.sh
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.dsv
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.sh
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.dsv
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.bash
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.sh
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.zsh
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.dsv
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/package.dsv
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/ament_index/resource_index/packages/rtabmap_viz
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake
+/home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/package.xml

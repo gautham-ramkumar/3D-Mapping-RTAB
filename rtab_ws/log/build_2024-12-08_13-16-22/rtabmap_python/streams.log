@@ -1,0 +1,23 @@
+[0.450s] Invoking command in '/home/shrirag10/rtab_ws/build/rtabmap_python': PYTHONPATH=/home/shrirag10/rtab_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shrirag10/rtab_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shrirag10/rtab_ws/build/rtabmap_python/build --no-deps symlink_data
+[0.614s] running develop
+[0.708s] running egg_info
+[0.708s] creating rtabmap_python.egg-info
+[0.709s] writing rtabmap_python.egg-info/PKG-INFO
+[0.709s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[0.709s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[0.709s] writing requirements to rtabmap_python.egg-info/requires.txt
+[0.709s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[0.709s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.710s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.710s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.744s] running build_ext
+[0.744s] Creating /home/shrirag10/rtab_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[0.745s] 
+[0.745s] Installed /home/shrirag10/rtab_ws/build/rtabmap_python
+[0.745s] running symlink_data
+[0.745s] creating /home/shrirag10/rtab_ws/install/rtabmap_python/share/ament_index
+[0.745s] creating /home/shrirag10/rtab_ws/install/rtabmap_python/share/ament_index/resource_index
+[0.745s] creating /home/shrirag10/rtab_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[0.745s] symbolically linking /home/shrirag10/rtab_ws/build/rtabmap_python/resource/rtabmap_python -> /home/shrirag10/rtab_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[0.745s] symbolically linking /home/shrirag10/rtab_ws/build/rtabmap_python/package.xml -> /home/shrirag10/rtab_ws/install/rtabmap_python/share/rtabmap_python
+[0.764s] Invoked command in '/home/shrirag10/rtab_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/shrirag10/rtab_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shrirag10/rtab_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shrirag10/rtab_ws/build/rtabmap_python/build --no-deps symlink_data

@@ -1,0 +1,46 @@
+[ 43%] Built target rtabmap_sync
+[ 65%] Built target rtabmap_sync_plugins
+[ 73%] Built target rtabmap_rgbd_sync
+[ 82%] Built target rtabmap_rgbdx_sync
+[ 91%] Built target rtabmap_stereo_sync
+[100%] Built target rtabmap_rgb_sync
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/include
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/include/rtabmap_sync
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake

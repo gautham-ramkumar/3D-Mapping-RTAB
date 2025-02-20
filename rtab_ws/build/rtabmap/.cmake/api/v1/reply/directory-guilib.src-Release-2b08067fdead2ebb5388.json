@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"install"
+		],
+		"files" : 
+		[
+			"guilib/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 229,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 239,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/librtabmap_gui.so.0.21.9",
+				"bin/librtabmap_gui.so.0.21"
+			],
+			"targetId" : "rtabmap_gui::@527b59fb50a536c5504e",
+			"targetIndex" : 34,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/librtabmap_gui.so"
+			],
+			"targetId" : "rtabmap_gui::@527b59fb50a536c5504e",
+			"targetIndex" : 34,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "include/rtabmap-0.21",
+			"paths" : 
+			[
+				"guilib/src/../include/rtabmap",
+				"/home/shrirag10/rtab_ws/build/rtabmap/guilib/src/include/rtabmap"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "devel",
+			"destination" : "lib/rtabmap-0.21",
+			"exportName" : "rtabmap_guiTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rtabmap_gui::@527b59fb50a536c5504e",
+					"index" : 34
+				}
+			],
+			"paths" : 
+			[
+				"guilib/src/CMakeFiles/Export/lib/rtabmap-0.21/RTABMap_guiTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "guilib/src",
+		"source" : "guilib/src"
+	}
+}

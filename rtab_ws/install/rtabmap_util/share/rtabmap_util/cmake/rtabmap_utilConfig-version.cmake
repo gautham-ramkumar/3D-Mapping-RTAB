@@ -1,0 +1,1 @@
+/home/shrirag10/rtab_ws/build/rtabmap_util/ament_cmake_core/rtabmap_utilConfig-version.cmake

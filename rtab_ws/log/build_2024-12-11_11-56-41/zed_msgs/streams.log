@@ -1,0 +1,22 @@
+[0.021s] Invoking command in '/home/shrirag10/rtab_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/shrirag10/rtab_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/shrirag10/rtab_ws/install/zed_msgs
+[0.045s] [0m* ROS2 distro variable not set. Trying to figure it out...[0m
+[0.051s] [0m*** WARNING *** ROS2 distro is unknown. This package could not work correctly.[0m
+[0.056s] [31mCMake Error at CMakeLists.txt:57 (find_package):
+[0.056s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[0.056s]   project has asked CMake to find a package configuration file provided by
+[0.056s]   "ament_cmake_auto", but CMake did not find one.
+[0.056s] 
+[0.056s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[0.056s]   with any of the following names:
+[0.056s] 
+[0.056s]     ament_cmake_autoConfig.cmake
+[0.056s]     ament_cmake_auto-config.cmake
+[0.056s] 
+[0.056s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[0.056s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[0.056s]   files.  If "ament_cmake_auto" provides a separate development package or
+[0.056s]   SDK, be sure it has been installed.
+[0.056s] 
+[0.056s] [0m
+[0.056s] -- Configuring incomplete, errors occurred!
+[0.056s] See also "/home/shrirag10/rtab_ws/build/zed_msgs/CMakeFiles/CMakeOutput.log".

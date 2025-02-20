@@ -1,0 +1,96 @@
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_util_plugins[0m
+[  2%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/obstacles_detection.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_aggregator.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_assembler.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/imu_to_tf.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/lidar_deskewing.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_relay.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_split.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/map_assembler.cpp.o[0m
+[ 26%] [32m[1mLinking CXX shared library librtabmap_util_plugins.so[0m
+[ 36%] Built target rtabmap_util_plugins
+[ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_relay.dir/src/RGBDRelayNode.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable rgbd_relay[0m
+[ 42%] Built target rtabmap_rgbd_relay
+[ 44%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_split.dir/src/RGBDSplitNode.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable rgbd_split[0m
+[ 47%] Built target rtabmap_rgbd_split
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_map_assembler.dir/src/MapAssemblerNode.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable map_assembler[0m
+[ 52%] Built target rtabmap_map_assembler
+[ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_imu_to_tf.dir/src/ImuToTFNode.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable imu_to_tf[0m
+[ 57%] Built target rtabmap_imu_to_tf
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_disparity_to_depth.dir/src/DisparityToDepthNode.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable disparity_to_depth[0m
+[ 63%] Built target rtabmap_disparity_to_depth
+[ 65%] [32mBuilding CXX object CMakeFiles/rtabmap_lidar_deskewing.dir/src/LidarDeskewingNode.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable lidar_deskewing[0m
+[ 68%] Built target rtabmap_lidar_deskewing
+[ 71%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyz.dir/src/PointCloudXYZNode.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable point_cloud_xyz[0m
+[ 73%] Built target rtabmap_point_cloud_xyz
+[ 76%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyzrgb.dir/src/PointCloudXYZRGBNode.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable point_cloud_xyzrgb[0m
+[ 78%] Built target rtabmap_point_cloud_xyzrgb
+[ 81%] [32mBuilding CXX object CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/src/PointCloudToDepthImageNode.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable pointcloud_to_depthimage[0m
+[ 84%] Built target rtabmap_pointcloud_to_depthimage
+[ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_obstacles_detection.dir/src/ObstaclesDetectionNode.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable obstacles_detection[0m
+[ 89%] Built target rtabmap_obstacles_detection
+[ 92%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_aggregator.dir/src/PointCloudAggregatorNode.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable point_cloud_aggregator[0m
+[ 94%] Built target rtabmap_point_cloud_aggregator
+[ 97%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_assembler.dir/src/PointCloudAssemblerNode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable point_cloud_assembler[0m
+[100%] Built target rtabmap_point_cloud_assembler
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/environment/library_path.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/environment/library_path.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/transform_to_tf.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/yaml_to_camera_info.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/republish_tf_static.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/imu_to_tf
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/disparity_to_depth
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/rgbd_relay
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/rgbd_split
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/lidar_deskewing
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_xyz
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_xyzrgb
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/pointcloud_to_depthimage
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/obstacles_detection
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_aggregator
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_assembler
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/rtabmap_util/map_assembler
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/ament_index/resource_index/package_run_dependencies/rtabmap_util
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/ament_index/resource_index/parent_prefix_path/rtabmap_util
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/environment/ament_prefix_path.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/environment/path.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/environment/path.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/local_setup.bash
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/local_setup.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/local_setup.zsh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/local_setup.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/package.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/ament_index/resource_index/packages/rtabmap_util
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/ament_index/resource_index/rclcpp_components/rtabmap_util
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilConfig.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilConfig-version.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/package.xml
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap_util/lib/librtabmap_util_plugins.so
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap_util/lib/librtabmap_util_plugins.so" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap_util/include
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap_util/include/rtabmap_util
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap_util/include/rtabmap_util/MapsManager.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap_util/include/rtabmap_util/visibility.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap_util/include/rtabmap_util/ULogToRosout.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport-release.cmake

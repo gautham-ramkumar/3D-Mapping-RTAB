@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"install"
+		],
+		"files" : 
+		[
+			"corelib/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 874,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 884,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 900,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/librtabmap_core.so.0.21.9",
+				"bin/librtabmap_core.so.0.21"
+			],
+			"targetId" : "rtabmap_core::@0bec898808b63ae9e904",
+			"targetIndex" : 33,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/librtabmap_core.so"
+			],
+			"targetId" : "rtabmap_core::@0bec898808b63ae9e904",
+			"targetIndex" : 33,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "include/rtabmap-0.21",
+			"paths" : 
+			[
+				"corelib/src/../include/rtabmap",
+				"/home/shrirag10/rtab_ws/build/rtabmap/corelib/src/include/rtabmap"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "devel",
+			"destination" : "lib/rtabmap-0.21",
+			"exportName" : "rtabmap_coreTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rtabmap_core::@0bec898808b63ae9e904",
+					"index" : 33
+				}
+			],
+			"paths" : 
+			[
+				"corelib/src/CMakeFiles/Export/lib/rtabmap-0.21/RTABMap_coreTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "corelib/src",
+		"source" : "corelib/src"
+	}
+}

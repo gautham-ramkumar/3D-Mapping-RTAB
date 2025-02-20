@@ -1,0 +1,50 @@
+[0.020s] Invoking command in '/home/shrirag10/rtab_ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/shrirag10/rtab_ws/build/rtabmap
+[0.097s] -- MOBILE_BUILD=OFF
+[0.125s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.147s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.494s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.515s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.516s] -- Found Qhull version 8.0.2
+[0.859s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.980s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[0.983s] -- Found SQLite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[0.985s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+[0.985s] -- Add PCL_OMP to definitions
+[0.985s] -- Found OpenCV: /usr/include/opencv4
+[0.985s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+[0.985s] -- Found ZLIB: /usr/include
+[0.998s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.329s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.401s] -- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+[1.405s] -- VTK_RENDERING_BACKEND=
+[1.437s] -- Found OpenNI2: /usr/include/openni2
+[1.437s] -- Found DC1394: /usr/include/dc1394
+[1.440s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.442s] -- Found g2o (targets)
+[1.442s] -- g2o include dir: /opt/ros/humble/include
+[1.443s] -- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+[1.455s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[1.463s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[1.463s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[1.464s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[1.464s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[1.464s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[1.468s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[1.473s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[1.474s] -- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+[1.478s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[1.482s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+[1.517s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[1.517s]   Could NOT find CUDA: Found unsuitable version "11.5", but required is at
+[1.517s]   least "12" (found /usr)
+[1.517s] Call Stack (most recent call first):
+[1.517s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:592 (_FPHSA_FAILURE_MESSAGE)
+[1.517s]   /usr/share/cmake-3.22/Modules/FindCUDA.cmake:1264 (find_package_handle_standard_args)
+[1.517s]   /usr/local/zed/zed-config.cmake:72 (find_package)
+[1.517s]   CMakeLists.txt:617 (find_package)
+[1.518s] 
+[1.518s] [0m
+[1.518s] -- Configuring incomplete, errors occurred!
+[1.518s] See also "/home/shrirag10/rtab_ws/build/rtabmap/CMakeFiles/CMakeOutput.log".
+[1.518s] See also "/home/shrirag10/rtab_ws/build/rtabmap/CMakeFiles/CMakeError.log".
+[1.525s] gmake: *** [Makefile:783: cmake_check_build_system] Error 1

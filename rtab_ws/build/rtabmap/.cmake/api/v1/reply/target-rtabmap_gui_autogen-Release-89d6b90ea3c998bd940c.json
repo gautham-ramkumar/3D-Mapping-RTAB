@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"guilib/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "rtabmap_core::@0bec898808b63ae9e904"
+		}
+	],
+	"id" : "rtabmap_gui_autogen::@527b59fb50a536c5504e",
+	"isGeneratorProvided" : true,
+	"name" : "rtabmap_gui_autogen",
+	"paths" : 
+	{
+		"build" : "guilib/src",
+		"source" : "guilib/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap/guilib/src/CMakeFiles/rtabmap_gui_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap/guilib/src/CMakeFiles/rtabmap_gui_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

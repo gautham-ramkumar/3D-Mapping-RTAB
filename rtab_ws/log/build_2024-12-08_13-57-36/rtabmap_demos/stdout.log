@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shrirag10/rtab_ws/build/rtabmap_demos
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/champ/champ_sim_vslam.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/champ/champ_vslam.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/find_object_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan2d_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan3d_assemble_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan3d_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam2d.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam3d.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam3d_assemble.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/isaac/isaac_sim_vslam_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/isaac/isaac_vslam.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/multisession_mapping_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/robot_mapping_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/stereo_outdoor_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd_scan.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_scan.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_scan_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_scan_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot4/turtlebot4_sim_demo.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot4/turtlebot4_slam.launch.py
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/config/demo_robot_mapping.rviz
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/config/find_object.ini
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/params/champ_nav2_params.yaml
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/params/isaac_nav2_params.yaml
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/params/isaac_vslam_nav2_params.yaml
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_rgbd_nav2_params.yaml
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_rgbd_scan_nav2_params.yaml
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_scan_nav2_params.yaml
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/4.png
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/5.png
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/6.png
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/7.png
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/data/books/8.png
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/ament_index/resource_index/package_run_dependencies/rtabmap_demos
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/ament_index/resource_index/parent_prefix_path/rtabmap_demos
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/environment/ament_prefix_path.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/environment/path.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/environment/path.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/local_setup.bash
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/local_setup.sh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/local_setup.zsh
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/local_setup.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/package.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/ament_index/resource_index/packages/rtabmap_demos
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/cmake/rtabmap_demosConfig.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/cmake/rtabmap_demosConfig-version.cmake
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_demos/share/rtabmap_demos/package.xml

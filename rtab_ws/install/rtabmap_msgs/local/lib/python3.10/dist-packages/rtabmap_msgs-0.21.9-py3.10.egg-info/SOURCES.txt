@@ -1,0 +1,1 @@
+/home/shrirag10/rtab_ws/build/rtabmap_msgs/ament_cmake_python/rtabmap_msgs/rtabmap_msgs.egg-info/SOURCES.txt

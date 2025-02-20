@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"examples/WifiMapping/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "rtabmap_gui::@527b59fb50a536c5504e"
+		}
+	],
+	"id" : "wifi_mapping_autogen::@fd9bb57abe7ce91ea3c7",
+	"isGeneratorProvided" : true,
+	"name" : "wifi_mapping_autogen",
+	"paths" : 
+	{
+		"build" : "examples/WifiMapping",
+		"source" : "examples/WifiMapping"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap/examples/WifiMapping/CMakeFiles/wifi_mapping_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/shrirag10/rtab_ws/build/rtabmap/examples/WifiMapping/CMakeFiles/wifi_mapping_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_odom[0m
+[ 16%] Built target rtabmap_odom
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_odom_plugins[0m
+[ 50%] Built target rtabmap_odom_plugins
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_rgbd_odometry[0m
+[ 66%] Built target rtabmap_rgbd_odometry
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_stereo_odometry[0m
+[ 83%] Built target rtabmap_stereo_odometry
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_icp_odometry[0m
+[100%] Built target rtabmap_icp_odometry
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/lib/rtabmap_odom/rgbd_odometry
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/lib/rtabmap_odom/icp_odometry
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/lib/rtabmap_odom/stereo_odometry
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/ament_index/resource_index/package_run_dependencies/rtabmap_odom
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/ament_index/resource_index/parent_prefix_path/rtabmap_odom
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.bash
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.sh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.zsh
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.dsv
+-- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/package.dsv
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/ament_index/resource_index/packages/rtabmap_odom
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/ament_index/resource_index/rclcpp_components/rtabmap_odom
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig-version.cmake
+-- Up-to-date symlink: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/package.xml
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_odom/lib/librtabmap_odom.so
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_odom/include
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_odom/include/rtabmap_odom
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-release.cmake

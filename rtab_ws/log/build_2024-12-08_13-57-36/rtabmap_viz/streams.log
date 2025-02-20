@@ -1,0 +1,133 @@
+[0.016s] Invoking command in '/home/shrirag10/rtab_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:/home/shrirag10/rtab_ws/install/rtabmap:/home/shrirag10/final_rsn/install/zed_ros2:/home/shrirag10/final_rsn/install/zed_robot_integration:/home/shrirag10/final_rsn/install/zed_multi_camera:/home/shrirag10/final_rsn/install/zed_display_rviz2:/home/shrirag10/final_rsn/install/zed_depth_to_laserscan:/home/shrirag10/final_rsn/install/zed_wrapper:/home/shrirag10/final_rsn/install/zed_tutorial_video:/home/shrirag10/final_rsn/install/zed_tutorial_pos_tracking:/home/shrirag10/final_rsn/install/zed_tutorial_depth:/home/shrirag10/final_rsn/install/zed_topic_benchmark:/home/shrirag10/final_rsn/install/zed_topic_benchmark_component:/home/shrirag10/final_rsn/install/zed_topic_benchmark_interfaces:/home/shrirag10/final_rsn/install/zed_rgb_convert:/home/shrirag10/final_rsn/install/zed_aruco_localization:/home/shrirag10/final_rsn/install/zed_components:/home/shrirag10/final_rsn/install/rviz_plugin_zed_od:/home/shrirag10/final_rsn/install/zed_msgs:/home/shrirag10/final_rsn/install/rtabmap_ros:/home/shrirag10/final_rsn/install/rtabmap_launch:/home/shrirag10/final_rsn/install/rtabmap_examples:/home/shrirag10/final_rsn/install/rtabmap_demos:/home/shrirag10/final_rsn/install/rtabmap_viz:/home/shrirag10/final_rsn/install/rtabmap_slam:/home/shrirag10/final_rsn/install/rtabmap_odom:/home/shrirag10/final_rsn/install/rtabmap_util:/home/shrirag10/final_rsn/install/rtabmap_sync:/home/shrirag10/final_rsn/install/rtabmap_rviz_plugins:/home/shrirag10/final_rsn/install/rtabmap_conversions:/home/shrirag10/final_rsn/install/rtabmap_msgs:/home/shrirag10/final_rsn/install/rtabmap:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync/lib:/home/shrirag10/rtab_ws/install/rtabmap_conversions/lib:/home/shrirag10/rtab_ws/install/rtabmap_msgs/lib:/home/shrirag10/rtab_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/shrirag10/rtab_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/shrirag10/rtab_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/shrirag10/rtab_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/shrirag10/rtab_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shrirag10/rtab_ws/src/rtabmap_ros/rtabmap_viz -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrirag10/rtab_ws/install/rtabmap_viz
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.211s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.284s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.510s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.563s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.570s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.579s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.665s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.710s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.714s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.815s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.838s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.881s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.895s] -- Looking for pthread.h
+[0.960s] -- Looking for pthread.h - found
+[0.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.030s] -- Found Threads: TRUE  
+[1.067s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.077s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.089s] -- Found rtabmap_msgs: 0.21.9 (/home/shrirag10/rtab_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake)
+[1.104s] -- Found rtabmap_sync: 0.21.9 (/home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake)
+[1.216s] -- Checking for module 'eigen3'
+[1.233s] --   Found eigen3, version 3.4.0
+[1.267s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.267s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.306s] -- Checking for module 'flann'
+[1.320s] --   Found flann, version 1.9.1
+[1.361s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.361s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.286s] -- Checking for module 'libusb-1.0'
+[2.301s] --   Found libusb-1.0, version 1.0.25
+[2.339s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.340s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.399s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.524s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.530s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.537s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.669s] -- Found Qhull version 8.0.2
+[2.790s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.905s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.906s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.907s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.907s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.908s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.908s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.908s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.909s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.909s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.910s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.911s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.911s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.912s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.912s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.913s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.914s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.915s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.915s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.916s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.916s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.917s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.917s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.920s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.921s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.923s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.016s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.016s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.019s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[3.019s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.019s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.020s]   command to set the policy and suppress this warning.
+[3.020s] 
+[3.020s]   CMake variable PCL_ROOT is set to:
+[3.020s] 
+[3.020s]     /usr
+[3.020s] 
+[3.020s]   For compatibility, CMake is ignoring the variable.
+[3.020s] Call Stack (most recent call first):
+[3.020s]   /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+[3.020s]   /home/shrirag10/rtab_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.020s]   /home/shrirag10/rtab_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+[3.020s]   /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.020s]   /home/shrirag10/rtab_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake:41 (include)
+[3.020s]   CMakeLists.txt:16 (find_package)
+[3.020s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.020s] [0m
+[3.077s] -- Found OpenCV: /usr (found version "4.5.4") found components: core calib3d imgproc highgui stitching photo video aruco objdetect missing components: xfeatures2d nonfree gpu cudafeatures2d
+[3.144s] -- Configuring done
+[3.174s] -- Generating done
+[3.180s] -- Build files have been written to: /home/shrirag10/rtab_ws/build/rtabmap_viz
+[3.195s] Invoked command in '/home/shrirag10/rtab_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:/home/shrirag10/rtab_ws/install/rtabmap:/home/shrirag10/final_rsn/install/zed_ros2:/home/shrirag10/final_rsn/install/zed_robot_integration:/home/shrirag10/final_rsn/install/zed_multi_camera:/home/shrirag10/final_rsn/install/zed_display_rviz2:/home/shrirag10/final_rsn/install/zed_depth_to_laserscan:/home/shrirag10/final_rsn/install/zed_wrapper:/home/shrirag10/final_rsn/install/zed_tutorial_video:/home/shrirag10/final_rsn/install/zed_tutorial_pos_tracking:/home/shrirag10/final_rsn/install/zed_tutorial_depth:/home/shrirag10/final_rsn/install/zed_topic_benchmark:/home/shrirag10/final_rsn/install/zed_topic_benchmark_component:/home/shrirag10/final_rsn/install/zed_topic_benchmark_interfaces:/home/shrirag10/final_rsn/install/zed_rgb_convert:/home/shrirag10/final_rsn/install/zed_aruco_localization:/home/shrirag10/final_rsn/install/zed_components:/home/shrirag10/final_rsn/install/rviz_plugin_zed_od:/home/shrirag10/final_rsn/install/zed_msgs:/home/shrirag10/final_rsn/install/rtabmap_ros:/home/shrirag10/final_rsn/install/rtabmap_launch:/home/shrirag10/final_rsn/install/rtabmap_examples:/home/shrirag10/final_rsn/install/rtabmap_demos:/home/shrirag10/final_rsn/install/rtabmap_viz:/home/shrirag10/final_rsn/install/rtabmap_slam:/home/shrirag10/final_rsn/install/rtabmap_odom:/home/shrirag10/final_rsn/install/rtabmap_util:/home/shrirag10/final_rsn/install/rtabmap_sync:/home/shrirag10/final_rsn/install/rtabmap_rviz_plugins:/home/shrirag10/final_rsn/install/rtabmap_conversions:/home/shrirag10/final_rsn/install/rtabmap_msgs:/home/shrirag10/final_rsn/install/rtabmap:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync/lib:/home/shrirag10/rtab_ws/install/rtabmap_conversions/lib:/home/shrirag10/rtab_ws/install/rtabmap_msgs/lib:/home/shrirag10/rtab_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/shrirag10/rtab_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/shrirag10/rtab_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/shrirag10/rtab_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/shrirag10/rtab_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shrirag10/rtab_ws/src/rtabmap_ros/rtabmap_viz -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrirag10/rtab_ws/install/rtabmap_viz
+[3.196s] Invoking command in '/home/shrirag10/rtab_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:/home/shrirag10/rtab_ws/install/rtabmap:/home/shrirag10/final_rsn/install/zed_ros2:/home/shrirag10/final_rsn/install/zed_robot_integration:/home/shrirag10/final_rsn/install/zed_multi_camera:/home/shrirag10/final_rsn/install/zed_display_rviz2:/home/shrirag10/final_rsn/install/zed_depth_to_laserscan:/home/shrirag10/final_rsn/install/zed_wrapper:/home/shrirag10/final_rsn/install/zed_tutorial_video:/home/shrirag10/final_rsn/install/zed_tutorial_pos_tracking:/home/shrirag10/final_rsn/install/zed_tutorial_depth:/home/shrirag10/final_rsn/install/zed_topic_benchmark:/home/shrirag10/final_rsn/install/zed_topic_benchmark_component:/home/shrirag10/final_rsn/install/zed_topic_benchmark_interfaces:/home/shrirag10/final_rsn/install/zed_rgb_convert:/home/shrirag10/final_rsn/install/zed_aruco_localization:/home/shrirag10/final_rsn/install/zed_components:/home/shrirag10/final_rsn/install/rviz_plugin_zed_od:/home/shrirag10/final_rsn/install/zed_msgs:/home/shrirag10/final_rsn/install/rtabmap_ros:/home/shrirag10/final_rsn/install/rtabmap_launch:/home/shrirag10/final_rsn/install/rtabmap_examples:/home/shrirag10/final_rsn/install/rtabmap_demos:/home/shrirag10/final_rsn/install/rtabmap_viz:/home/shrirag10/final_rsn/install/rtabmap_slam:/home/shrirag10/final_rsn/install/rtabmap_odom:/home/shrirag10/final_rsn/install/rtabmap_util:/home/shrirag10/final_rsn/install/rtabmap_sync:/home/shrirag10/final_rsn/install/rtabmap_rviz_plugins:/home/shrirag10/final_rsn/install/rtabmap_conversions:/home/shrirag10/final_rsn/install/rtabmap_msgs:/home/shrirag10/final_rsn/install/rtabmap:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync/lib:/home/shrirag10/rtab_ws/install/rtabmap_conversions/lib:/home/shrirag10/rtab_ws/install/rtabmap_msgs/lib:/home/shrirag10/rtab_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/shrirag10/rtab_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/shrirag10/rtab_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/shrirag10/rtab_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/shrirag10/rtab_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shrirag10/rtab_ws/build/rtabmap_viz
+[3.256s] [ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiNode.cpp.o[0m
+[11.172s] [ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiWrapper.cpp.o[0m
+[40.162s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/PreferencesDialogROS.cpp.o[0m
+[46.527s] [100%] [32m[1mLinking CXX executable rtabmap_viz[0m
+[48.563s] [100%] Built target rtabmap_viz
+[48.572s] Invoked command in '/home/shrirag10/rtab_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:/home/shrirag10/rtab_ws/install/rtabmap:/home/shrirag10/final_rsn/install/zed_ros2:/home/shrirag10/final_rsn/install/zed_robot_integration:/home/shrirag10/final_rsn/install/zed_multi_camera:/home/shrirag10/final_rsn/install/zed_display_rviz2:/home/shrirag10/final_rsn/install/zed_depth_to_laserscan:/home/shrirag10/final_rsn/install/zed_wrapper:/home/shrirag10/final_rsn/install/zed_tutorial_video:/home/shrirag10/final_rsn/install/zed_tutorial_pos_tracking:/home/shrirag10/final_rsn/install/zed_tutorial_depth:/home/shrirag10/final_rsn/install/zed_topic_benchmark:/home/shrirag10/final_rsn/install/zed_topic_benchmark_component:/home/shrirag10/final_rsn/install/zed_topic_benchmark_interfaces:/home/shrirag10/final_rsn/install/zed_rgb_convert:/home/shrirag10/final_rsn/install/zed_aruco_localization:/home/shrirag10/final_rsn/install/zed_components:/home/shrirag10/final_rsn/install/rviz_plugin_zed_od:/home/shrirag10/final_rsn/install/zed_msgs:/home/shrirag10/final_rsn/install/rtabmap_ros:/home/shrirag10/final_rsn/install/rtabmap_launch:/home/shrirag10/final_rsn/install/rtabmap_examples:/home/shrirag10/final_rsn/install/rtabmap_demos:/home/shrirag10/final_rsn/install/rtabmap_viz:/home/shrirag10/final_rsn/install/rtabmap_slam:/home/shrirag10/final_rsn/install/rtabmap_odom:/home/shrirag10/final_rsn/install/rtabmap_util:/home/shrirag10/final_rsn/install/rtabmap_sync:/home/shrirag10/final_rsn/install/rtabmap_rviz_plugins:/home/shrirag10/final_rsn/install/rtabmap_conversions:/home/shrirag10/final_rsn/install/rtabmap_msgs:/home/shrirag10/final_rsn/install/rtabmap:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync/lib:/home/shrirag10/rtab_ws/install/rtabmap_conversions/lib:/home/shrirag10/rtab_ws/install/rtabmap_msgs/lib:/home/shrirag10/rtab_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/shrirag10/rtab_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/shrirag10/rtab_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/shrirag10/rtab_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/shrirag10/rtab_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shrirag10/rtab_ws/build/rtabmap_viz
+[48.573s] Invoking command in '/home/shrirag10/rtab_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:/home/shrirag10/rtab_ws/install/rtabmap:/home/shrirag10/final_rsn/install/zed_ros2:/home/shrirag10/final_rsn/install/zed_robot_integration:/home/shrirag10/final_rsn/install/zed_multi_camera:/home/shrirag10/final_rsn/install/zed_display_rviz2:/home/shrirag10/final_rsn/install/zed_depth_to_laserscan:/home/shrirag10/final_rsn/install/zed_wrapper:/home/shrirag10/final_rsn/install/zed_tutorial_video:/home/shrirag10/final_rsn/install/zed_tutorial_pos_tracking:/home/shrirag10/final_rsn/install/zed_tutorial_depth:/home/shrirag10/final_rsn/install/zed_topic_benchmark:/home/shrirag10/final_rsn/install/zed_topic_benchmark_component:/home/shrirag10/final_rsn/install/zed_topic_benchmark_interfaces:/home/shrirag10/final_rsn/install/zed_rgb_convert:/home/shrirag10/final_rsn/install/zed_aruco_localization:/home/shrirag10/final_rsn/install/zed_components:/home/shrirag10/final_rsn/install/rviz_plugin_zed_od:/home/shrirag10/final_rsn/install/zed_msgs:/home/shrirag10/final_rsn/install/rtabmap_ros:/home/shrirag10/final_rsn/install/rtabmap_launch:/home/shrirag10/final_rsn/install/rtabmap_examples:/home/shrirag10/final_rsn/install/rtabmap_demos:/home/shrirag10/final_rsn/install/rtabmap_viz:/home/shrirag10/final_rsn/install/rtabmap_slam:/home/shrirag10/final_rsn/install/rtabmap_odom:/home/shrirag10/final_rsn/install/rtabmap_util:/home/shrirag10/final_rsn/install/rtabmap_sync:/home/shrirag10/final_rsn/install/rtabmap_rviz_plugins:/home/shrirag10/final_rsn/install/rtabmap_conversions:/home/shrirag10/final_rsn/install/rtabmap_msgs:/home/shrirag10/final_rsn/install/rtabmap:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync/lib:/home/shrirag10/rtab_ws/install/rtabmap_conversions/lib:/home/shrirag10/rtab_ws/install/rtabmap_msgs/lib:/home/shrirag10/rtab_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/shrirag10/rtab_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/shrirag10/rtab_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/shrirag10/rtab_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/shrirag10/rtab_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shrirag10/rtab_ws/build/rtabmap_viz
+[48.579s] -- Install configuration: "Release"
+[48.580s] -- Execute custom install script
+[48.580s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz
+[48.587s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/ament_index/resource_index/package_run_dependencies/rtabmap_viz
+[48.594s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/ament_index/resource_index/parent_prefix_path/rtabmap_viz
+[48.601s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.sh
+[48.607s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.dsv
+[48.614s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.sh
+[48.622s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.dsv
+[48.628s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.bash
+[48.637s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.sh
+[48.643s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.zsh
+[48.649s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.dsv
+[48.655s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/package.dsv
+[48.664s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/ament_index/resource_index/packages/rtabmap_viz
+[48.671s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake
+[48.679s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake
+[48.686s] -- Symlinking: /home/shrirag10/rtab_ws/install/rtabmap_viz/share/rtabmap_viz/package.xml
+[48.698s] Invoked command in '/home/shrirag10/rtab_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync:/home/shrirag10/rtab_ws/install/rtabmap_conversions:/home/shrirag10/rtab_ws/install/rtabmap_msgs:/home/shrirag10/rtab_ws/install/rtabmap:/home/shrirag10/final_rsn/install/zed_ros2:/home/shrirag10/final_rsn/install/zed_robot_integration:/home/shrirag10/final_rsn/install/zed_multi_camera:/home/shrirag10/final_rsn/install/zed_display_rviz2:/home/shrirag10/final_rsn/install/zed_depth_to_laserscan:/home/shrirag10/final_rsn/install/zed_wrapper:/home/shrirag10/final_rsn/install/zed_tutorial_video:/home/shrirag10/final_rsn/install/zed_tutorial_pos_tracking:/home/shrirag10/final_rsn/install/zed_tutorial_depth:/home/shrirag10/final_rsn/install/zed_topic_benchmark:/home/shrirag10/final_rsn/install/zed_topic_benchmark_component:/home/shrirag10/final_rsn/install/zed_topic_benchmark_interfaces:/home/shrirag10/final_rsn/install/zed_rgb_convert:/home/shrirag10/final_rsn/install/zed_aruco_localization:/home/shrirag10/final_rsn/install/zed_components:/home/shrirag10/final_rsn/install/rviz_plugin_zed_od:/home/shrirag10/final_rsn/install/zed_msgs:/home/shrirag10/final_rsn/install/rtabmap_ros:/home/shrirag10/final_rsn/install/rtabmap_launch:/home/shrirag10/final_rsn/install/rtabmap_examples:/home/shrirag10/final_rsn/install/rtabmap_demos:/home/shrirag10/final_rsn/install/rtabmap_viz:/home/shrirag10/final_rsn/install/rtabmap_slam:/home/shrirag10/final_rsn/install/rtabmap_odom:/home/shrirag10/final_rsn/install/rtabmap_util:/home/shrirag10/final_rsn/install/rtabmap_sync:/home/shrirag10/final_rsn/install/rtabmap_rviz_plugins:/home/shrirag10/final_rsn/install/rtabmap_conversions:/home/shrirag10/final_rsn/install/rtabmap_msgs:/home/shrirag10/final_rsn/install/rtabmap:/home/shrirag10/final_rsn/install/rtabmap_dataset_processor:/home/shrirag10/final_rsn/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/shrirag10/rtab_ws/install/rtabmap_sync/lib:/home/shrirag10/rtab_ws/install/rtabmap_conversions/lib:/home/shrirag10/rtab_ws/install/rtabmap_msgs/lib:/home/shrirag10/rtab_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/shrirag10/rtab_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/shrirag10/rtab_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/shrirag10/rtab_ws/install/rtabmap/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/shrirag10/rtab_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shrirag10/rtab_ws/build/rtabmap_viz

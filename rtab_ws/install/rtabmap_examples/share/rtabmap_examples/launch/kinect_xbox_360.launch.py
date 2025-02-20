@@ -1,0 +1,1 @@
+/home/shrirag10/rtab_ws/src/rtabmap_ros/rtabmap_examples/launch/kinect_xbox_360.launch.py

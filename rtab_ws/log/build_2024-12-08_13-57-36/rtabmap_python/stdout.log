@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing rtabmap_python.egg-info/PKG-INFO
+writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+writing entry points to rtabmap_python.egg-info/entry_points.txt
+writing requirements to rtabmap_python.egg-info/requires.txt
+writing top-level names to rtabmap_python.egg-info/top_level.txt
+reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shrirag10/rtab_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+
+Installed /home/shrirag10/rtab_ws/build/rtabmap_python
+running symlink_data

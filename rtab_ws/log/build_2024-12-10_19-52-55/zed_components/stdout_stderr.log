@@ -1,0 +1,14 @@
+[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find CUDA: Found unsuitable version "11.5", but required is at
+  least "12" (found /usr)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:592 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake-3.22/Modules/FindCUDA.cmake:1264 (find_package_handle_standard_args)
+  /usr/local/zed/zed-config.cmake:72 (find_package)
+  CMakeLists.txt:81 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/shrirag10/rtab_ws/build/zed_components/CMakeFiles/CMakeOutput.log".
+See also "/home/shrirag10/rtab_ws/build/zed_components/CMakeFiles/CMakeError.log".
+gmake: *** [Makefile:412: cmake_check_build_system] Error 1

@@ -1,0 +1,814 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- MOBILE_BUILD=OFF
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+-- Found SQLite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5") found components: C CXX 
+-- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+-- Add PCL_OMP to definitions
+-- Found OpenCV: /usr/include/opencv4
+-- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+-- Found ZLIB: /usr/include
+-- Found Threads: TRUE  
+-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found Python3: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: C HL 
+-- Found NetCDF: /usr/include (found version "4.8.1") 
+-- Found OGG: /usr/lib/x86_64-linux-gnu/libogg.so  
+-- Found THEORA: /usr/lib/x86_64-linux-gnu/libtheora.so  
+-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found GL2PS: /usr/lib/x86_64-linux-gnu/libgl2ps.so (found suitable version "1.4.2", minimum required is "1.4.2") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+-- Found SQLite3: /usr/include (found version "3.37.2") 
+-- Found LibPROJ: /usr/lib/x86_64-linux-gnu/libproj.so (found version "8.2.1") 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- Found X11: /usr/include   
+-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+-- Found utf8cpp: /usr/include/utf8cpp  
+-- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+-- VTK_RENDERING_BACKEND=
+-- Found OpenNI2: /usr/include/openni2
+-- Found DC1394: /usr/include/dc1394
+-- Found Eigen3: /usr/include/eigen3 (Required is at least version "2.91.0") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found g2o (targets)
+-- g2o include dir: /opt/ros/humble/include
+-- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+-- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+-- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+-- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+-- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+-- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+-- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+-- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+-- Found CUDA: /usr (found suitable version "11.5", minimum required is "11") 
+-- Found ZED sdk: /usr/local/zed/include
+-- Found CUDA: /usr (found version "11.5") 
+-- Found CUDA: /usr/include
+-- Found RealSense2: 
+-- Found octomap 1.9.7: /usr/include
+-- Found grid_map_core 2.0.0: /opt/ros/humble/include;/usr/include/eigen3
+-- Architecture: x86_64
+-- Performing Test COMPILER_SUPPORTS_CXX17
+-- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+-- Found Pthreads
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- --------------------------------------------
+-- Info :
+--   RTAB-Map Version =     0.21.9
+--   CMAKE_VERSION =        3.22.1
+--   CMAKE_INSTALL_PREFIX = /home/shrirag10/rtab_ws/install/rtabmap
+--   CMAKE_BUILD_TYPE =     Release
+--   CMAKE_INSTALL_LIBDIR = lib
+--   BUILD_APP =            ON
+--   BUILD_TOOLS =          ON
+--   BUILD_EXAMPLES =       ON
+--   BUILD_SHARED_LIBS =    ON
+--   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17
+--   FLANN_KDTREE_MEM_OPT = OFF
+--   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+--   PCL_VERSION = 1.12.1
+-- 
+-- Optional dependencies ('*' affects some default parameters) :
+--  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+--   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+--   With VTK 9.1              = YES (License: BSD)
+--   With external SQLite3     = YES (License: Public Domain)
+--   With ORB OcTree           = YES (License: GPLv3)
+--   With SupertPoint          = NO (WITH_TORCH=OFF)
+--   With Python3              = NO (WITH_PYTHON=OFF)
+--   With Madgwick             = YES (License: GPL)
+--   With FastCV               = NO (FastCV not found)
+--   With PDAL                 = NO (PDAL not found)
+--   With libLAS               = NO (WITH_LIBLAS=OFF)
+--   With CudaSift             = NO (WITH_CUDASIFT=OFF)
+-- 
+--  Solvers:
+--   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+--  *With g2o 1.0.0            = YES (License: BSD)
+--  *With GTSAM 4.2.0          = YES (License: BSD)
+--  *With Ceres                = NO (WITH_CERES=OFF)
+--   With MRPT                 = NO (MRPT not found)
+--   With VERTIGO              = YES (License: GPLv3)
+--   With cvsba                = NO (WITH_CVSBA=OFF)
+--  *With libpointmatcher 1.3.1 = YES (License: BSD)
+--   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+--   With Open3D               = NO (WITH_OPEN3D=OFF)
+--   With OpenGV               = NO (OpenGV not found)
+-- 
+--  Reconstruction Approaches:
+--   With OctoMap 1.9.7        = YES (License: BSD)
+--   With GridMap 2.0.0        = YES (License: BSD)
+--   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+--   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+--   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+-- 
+--  Camera Drivers:
+--   With Freenect             = NO (libfreenect not found)
+--   With OpenNI               = YES (License: Apache v2)
+--   With OpenNI2              = YES (License: Apache v2)
+--   With Freenect2            = NO (libfreenect2 not found)
+--   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+--   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+--   With dc1394               = YES (License: LGPL)
+--   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+--   With ZED                  = YES
+--   With ZEDOC                = NO (ZED Open Capture not found)
+--   With RealSense            = NO (librealsense not found)
+--   With RealSense2 2.55.1    = YES (License: Apache-2)
+--   With MyntEyeS             = NO (mynteye s sdk not found)
+--   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+--   With XVisio SDK           = NO (WITH_XVSDK=OFF)
+-- 
+--  Odometry Approaches:
+--   With loam_velodyne        = NO (WITH_LOAM=OFF)
+--   With floam                = NO (WITH_FLOAM=OFF)
+--   With libfovis             = NO (WITH_FOVIS=OFF)
+--   With libviso2             = NO (WITH_VISO2=OFF)
+--   With dvo_core             = NO (WITH_DVO=OFF)
+--   With okvis                = NO (WITH_OKVIS=OFF)
+--   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+--   With VINS-Fusion          = NO (WITH_VINS=OFF)
+--   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+--   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+-- Show all options with: cmake -LA | grep WITH_
+-- --------------------------------------------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shrirag10/rtab_ws/build/rtabmap
+[  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsManager.cpp.o[0m
+[  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsSender.cpp.o[0m
+[  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsHandler.cpp.o[0m
+[  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UFile.cpp.o[0m
+[  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UDirectory.cpp.o[0m
+[  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UConversion.cpp.o[0m
+[  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/ULogger.cpp.o[0m
+[  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UThread.cpp.o[0m
+[  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UTimer.cpp.o[0m
+[  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UProcessInfo.cpp.o[0m
+[  5%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UVariant.cpp.o[0m
+[  5%] [32m[1mLinking CXX shared library ../../bin/librtabmap_utilite.so[0m
+[  5%] Built target rtabmap_utilite
+[  6%] [32mBuilding CXX object utilite/resource_generator/CMakeFiles/res_tool.dir/main.cpp.o[0m
+[  6%] [32m[1mLinking CXX executable ../../bin/rtabmap-res_tool[0m
+[  6%] Built target res_tool
+[  6%] [34m[1m[Creating resources][0m
+ Using namespace=rtabmap
+ Using target directory=/home/shrirag10/rtab_ws/build/rtabmap/corelib/src
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/corelib/src/resources/DatabaseSchema.sql" size = 5900 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/corelib/src/DatabaseSchema_sql.h" size = 12027 bytes
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_18_3.sql" size = 5749 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/corelib/src/DatabaseSchema_0_18_3_sql.h" size = 11753 bytes
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_18_0.sql" size = 5749 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/corelib/src/DatabaseSchema_0_18_0_sql.h" size = 11753 bytes
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_17_0.sql" size = 5432 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/corelib/src/DatabaseSchema_0_17_0_sql.h" size = 11119 bytes
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_2.sql" size = 5362 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_2_sql.h" size = 10979 bytes
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_1.sql" size = 5286 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_1_sql.h" size = 10827 bytes
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_0.sql" size = 5273 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_0_sql.h" size = 10801 bytes
+[  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Memory.cpp.o[0m
+[  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Statistics.cpp.o[0m
+[  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Rtabmap.cpp.o[0m
+[  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RtabmapThread.cpp.o[0m
+[  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriver.cpp.o[0m
+[  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriverSqlite3.cpp.o[0m
+[  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBReader.cpp.o[0m
+[  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Recovery.cpp.o[0m
+[ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorCapture.cpp.o[0m
+[ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorCaptureThread.cpp.o[0m
+[ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Camera.cpp.o[0m
+[ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraModel.cpp.o[0m
+[ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o[0m
+[ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect2.cpp.o[0m
+[ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraImages.cpp.o[0m
+[ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4W2.cpp.o[0m
+[ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4A.cpp.o[0m
+[ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenni.cpp.o[0m
+[ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNI2.cpp.o[0m
+[ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNICV.cpp.o[0m
+[ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRealSense.cpp.o[0m
+[ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRealSense2.cpp.o[0m
+[ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRGBDImages.cpp.o[0m
+[ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoDC1394.cpp.o[0m
+[ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoFlyCapture2.cpp.o[0m
+[ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoImages.cpp.o[0m
+[ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoVideo.cpp.o[0m
+[ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoZed.cpp.o[0m
+[ 18%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoZedOC.cpp.o[0m
+[ 18%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoTara.cpp.o[0m
+[ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraVideo.cpp.o[0m
+[ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraMyntEye.cpp.o[0m
+[ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraDepthAI.cpp.o[0m
+[ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraSeerSense.cpp.o[0m
+[ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/EpipolarGeometry.cpp.o[0m
+[ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/VisualWord.cpp.o[0m
+[ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/VWDictionary.cpp.o[0m
+[ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/BayesFilter.cpp.o[0m
+[ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Parameters.cpp.o[0m
+[ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Signature.cpp.o[0m
+[ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Features2d.cpp.o[0m
+[ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Transform.cpp.o[0m
+[ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GeodeticCoords.cpp.o[0m
+[ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util2d.cpp.o[0m
+[ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d.cpp.o[0m
+[ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_filtering.cpp.o[0m
+[ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_mapping.cpp.o[0m
+[ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_transforms.cpp.o[0m
+[ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_registration.cpp.o[0m
+[ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_surface.cpp.o[0m
+[ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_features.cpp.o[0m
+[ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_correspondences.cpp.o[0m
+[ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_motion_estimation.cpp.o[0m
+[ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorData.cpp.o[0m
+[ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Graph.cpp.o[0m
+[ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Compression.cpp.o[0m
+[ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Link.cpp.o[0m
+[ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LaserScan.cpp.o[0m
+[ 30%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Optimizer.cpp.o[0m
+[ 30%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerTORO.cpp.o[0m
+[ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerG2O.cpp.o[0m
+[ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerGTSAM.cpp.o[0m
+[ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerCVSBA.cpp.o[0m
+[ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerCeres.cpp.o[0m
+[ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Registration.cpp.o[0m
+[ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RegistrationIcp.cpp.o[0m
+[ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RegistrationVis.cpp.o[0m
+[ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Odometry.cpp.o[0m
+[ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/OdometryThread.cpp.o[0m
+[ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryF2M.cpp.o[0m
+[ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryMono.cpp.o[0m
+[ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryF2F.cpp.o[0m
+[ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryFovis.cpp.o[0m
+[ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryViso2.cpp.o[0m
+[ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryDVO.cpp.o[0m
+[ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOkvis.cpp.o[0m
+[ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryORBSLAM2.cpp.o[0m
+[ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryORBSLAM3.cpp.o[0m
+[ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryLOAM.cpp.o[0m
+[ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryFLOAM.cpp.o[0m
+[ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryMSCKF.cpp.o[0m
+[ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryVINS.cpp.o[0m
+[ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOpenVINS.cpp.o[0m
+[ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOpen3D.cpp.o[0m
+[ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMU.cpp.o[0m
+[ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMUThread.cpp.o[0m
+[ 41%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMUFilter.cpp.o[0m
+[ 41%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/imufilter/ComplementaryFilter.cpp.o[0m
+[ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Stereo.cpp.o[0m
+[ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/StereoDense.cpp.o[0m
+[ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/StereoCameraModel.cpp.o[0m
+[ 43%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/stereo/StereoBM.cpp.o[0m
+[ 43%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/stereo/StereoSGBM.cpp.o[0m
+[ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GlobalMap.cpp.o[0m
+[ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LocalGridMaker.cpp.o[0m
+[ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LocalGrid.cpp.o[0m
+[ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/OccupancyGrid.cpp.o[0m
+[ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/CloudMap.cpp.o[0m
+[ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/MarkerDetector.cpp.o[0m
+[ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GlobalDescriptorExtractor.cpp.o[0m
+[ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GainCompensator.cpp.o[0m
+[ 47%] [32mBuilding C object corelib/src/CMakeFiles/rtabmap_core.dir/rtflann/ext/lz4.c.o[0m
+[ 47%] [32mBuilding C object corelib/src/CMakeFiles/rtabmap_core.dir/rtflann/ext/lz4hc.c.o[0m
+[ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/FlannIndex.cpp.o[0m
+[ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/discrete_depth_distortion_model_helpers.cpp.o[0m
+[ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/discrete_depth_distortion_model.cpp.o[0m
+[ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/frame_projector.cpp.o[0m
+[ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/slam_calibrator.cpp.o[0m
+[ 50%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/ORBextractor.cc.o[0m
+[ 50%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/solvepnp.cpp.o[0m
+[ 50%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/five-point.cpp.o[0m
+[ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/lidar/LidarVLP16.cpp.o[0m
+[ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/posegraph3.cpp.o[0m
+[ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer3_iteration.cpp.o[0m
+[ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer3.cpp.o[0m
+[ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/posegraph2.cpp.o[0m
+[ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer2.cpp.o[0m
+[ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_se2Switchable.cpp.o[0m
+[ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_se3Switchable.cpp.o[0m
+[ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_switchPrior.cpp.o[0m
+[ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/types_g2o_robust.cpp.o[0m
+[ 55%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/vertex_switchLinear.cpp.o[0m
+[ 55%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/OctoMap.cpp.o[0m
+[ 56%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/GridMap.cpp.o[0m
+[ 56%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/gtsam/GravityFactor.cpp.o[0m
+[ 56%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/imufilter/MadgwickFilter.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library ../../bin/librtabmap_core.so[0m
+[ 57%] Built target rtabmap_core
+[ 57%] [32mBuilding CXX object tools/ConsoleApp/CMakeFiles/consoleApp.dir/main.cpp.o[0m
+[ 58%] [32mBuilding CXX object tools/ExtractObject/CMakeFiles/extractObject.dir/main.cpp.o[0m
+[ 58%] [32mBuilding CXX object tools/ImagesJoiner/CMakeFiles/imagesJoiner.dir/main.cpp.o[0m
+[ 58%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[ 59%] [32m[1mLinking CXX executable ../../bin/rtabmap-imagesJoiner[0m
+[ 59%] Built target imagesJoiner
+[ 59%] [32mBuilding CXX object tools/Camera/CMakeFiles/camera.dir/main.cpp.o[0m
+[ 59%] Built target rtabmap_gui_autogen
+[ 60%] [32mBuilding CXX object tools/StereoEval/CMakeFiles/stereoEval.dir/main.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable ../../bin/rtabmap-camera[0m
+[ 61%] Built target camera
+[ 62%] [32mBuilding CXX object tools/KittiDataset/CMakeFiles/kitti_dataset.dir/main.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable ../../bin/rtabmap-console[0m
+[ 62%] Built target consoleApp
+[ 62%] [32mBuilding CXX object tools/RgbdDataset/CMakeFiles/rgbd_dataset.dir/main.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable ../../bin/rtabmap-stereoEval[0m
+[ 62%] Built target stereoEval
+[ 62%] [32mBuilding CXX object tools/EurocDataset/CMakeFiles/euroc_dataset.dir/main.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable ../../bin/rtabmap-extractObject[0m
+[ 62%] Built target extractObject
+[ 62%] [32mBuilding CXX object tools/Recovery/CMakeFiles/recovery.dir/main.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable ../../bin/rtabmap-recovery[0m
+[ 63%] [32m[1mLinking CXX executable ../../bin/rtabmap-kitti_dataset[0m
+[ 63%] Built target recovery
+[ 64%] [32mBuilding CXX object tools/Reprocess/CMakeFiles/reprocess.dir/main.cpp.o[0m
+[ 64%] Built target kitti_dataset
+[ 64%] [32mBuilding CXX object tools/DetectMoreLoopClosures/CMakeFiles/detectMoreLoopClosures.dir/main.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_dataset[0m
+[ 65%] Built target rgbd_dataset
+[ 66%] [32mBuilding CXX object tools/Export/CMakeFiles/export.dir/main.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable ../../bin/rtabmap-euroc_dataset[0m
+[ 66%] Built target euroc_dataset
+[ 66%] [32mBuilding CXX object tools/Info/CMakeFiles/info.dir/main.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable ../../bin/rtabmap-detectMoreLoopClosures[0m
+[ 67%] Built target detectMoreLoopClosures
+[ 67%] [32mBuilding CXX object tools/CleanupLocalGrids/CMakeFiles/cleanupLocalGrids.dir/main.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable ../../bin/rtabmap-reprocess[0m
+[ 67%] Built target reprocess
+[ 67%] [32mBuilding CXX object tools/GlobalBundleAdjustment/CMakeFiles/globalBundleAdjustment.dir/main.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable ../../bin/rtabmap-info[0m
+[ 67%] Built target info
+[ 67%] [32mBuilding CXX object tools/LidarViewer/CMakeFiles/lidar_viewer.dir/main.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable ../../bin/rtabmap-cleanupLocalGrids[0m
+[ 68%] Built target cleanupLocalGrids
+[ 68%] [34m[1mAutomatic RCC for GuiLib.qrc[0m
+[ 68%] [34m[1m[Creating resources][0m
+ Using namespace=rtabmap
+ Using target directory=/home/shrirag10/rtab_ws/build/rtabmap/guilib/src
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/data/presets/camera_tof_icp.ini" size = 687 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/guilib/src/camera_tof_icp_ini.h" size = 1571 bytes
+Input file "/home/shrirag10/rtab_ws/src/rtabmap/data/presets/lidar3d_icp.ini" size = 1137 bytes
+Output file "/home/shrirag10/rtab_ws/build/rtabmap/guilib/src/lidar3d_icp_ini.h" size = 2465 bytes
+[ 69%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/rtabmap_gui_autogen/mocs_compilation.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable ../../bin/rtabmap-globalBundleAdjustment[0m
+[ 70%] [32m[1mLinking CXX executable ../../bin/rtabmap-export[0m
+[ 70%] Built target globalBundleAdjustment
+[ 70%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MainWindow.cpp.o[0m
+[ 70%] Built target export
+[ 71%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PreferencesDialog.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable ../../bin/rtabmap-lidar_viewer[0m
+[ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/KeypointItem.cpp.o[0m
+[ 72%] Built target lidar_viewer
+[ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ImageView.cpp.o[0m
+[ 73%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PdfPlot.cpp.o[0m
+[ 73%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/StatsToolBox.cpp.o[0m
+[ 74%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ProgressDialog.cpp.o[0m
+[ 74%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/AboutDialog.cpp.o[0m
+[ 74%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ConsoleWidget.cpp.o[0m
+[ 75%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DatabaseViewer.cpp.o[0m
+[ 75%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/utilite/UPlot.cpp.o[0m
+[ 76%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewer.cpp.o[0m
+[ 76%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewerCellPicker.cpp.o[0m
+[ 76%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewerInteractorStyle.cpp.o[0m
+[ 77%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/OdometryViewer.cpp.o[0m
+[ 77%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/LoopClosureViewer.cpp.o[0m
+[ 78%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DataRecorder.cpp.o[0m
+[ 78%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CameraViewer.cpp.o[0m
+[ 78%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CalibrationDialog.cpp.o[0m
+[ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportDialog.cpp.o[0m
+[ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportBundlerDialog.cpp.o[0m
+[ 80%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PostProcessingDialog.cpp.o[0m
+[ 80%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportCloudsDialog.cpp.o[0m
+[ 80%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditConstraintDialog.cpp.o[0m
+[ 81%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MapVisibilityWidget.cpp.o[0m
+[ 81%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/GraphViewer.cpp.o[0m
+[ 82%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditDepthArea.cpp.o[0m
+[ 82%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditMapArea.cpp.o[0m
+[ 82%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocWidget.cpp.o[0m
+[ 83%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocSubView.cpp.o[0m
+[ 83%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CreateSimpleCalibrationDialog.cpp.o[0m
+[ 84%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ParametersToolBox.cpp.o[0m
+[ 84%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DepthCalibrationDialog.cpp.o[0m
+[ 84%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/LinkRefiningDialog.cpp.o[0m
+[ 85%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/3rdParty/QMultiComboBox.cpp.o[0m
+[ 85%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/opencv/vtkImageMatSource.cpp.o[0m
+[ 86%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/rtabmap_gui_autogen/EWIEGA46WW/qrc_GuiLib.cpp.o[0m
+[ 86%] [32m[1mLinking CXX shared library ../../bin/librtabmap_gui.so[0m
+[ 86%] Built target rtabmap_gui
+[ 86%] [32mBuilding CXX object tools/CameraRGBD/CMakeFiles/rgbd_camera.dir/main.cpp.o[0m
+[ 86%] [32mBuilding CXX object tools/Report/CMakeFiles/report.dir/main.cpp.o[0m
+[ 87%] [32mBuilding CXX object app/src/CMakeFiles/rtabmap_app.dir/main.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/DatabaseViewer/CMakeFiles/databaseViewer.dir/main.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable ../../bin/rtabmap-databaseViewer[0m
+[ 88%] [32m[1mLinking CXX executable ../../bin/rtabmap[0m
+[ 88%] Built target databaseViewer
+[ 88%] [32mBuilding CXX object tools/EpipolarGeometry/CMakeFiles/epipolar_geometry.dir/main.cpp.o[0m
+[ 88%] Built target rtabmap_app
+[ 88%] [32mBuilding CXX object tools/OdometryViewer/CMakeFiles/odometryViewer.dir/main.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_camera[0m
+[ 89%] Built target rgbd_camera
+[ 90%] [32mBuilding CXX object tools/DataRecorder/CMakeFiles/dataRecorder.dir/main.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable ../../bin/rtabmap-report[0m
+[ 90%] Built target report
+[ 91%] [32mBuilding CXX object tools/Calibration/CMakeFiles/calibration.dir/main.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-odometryViewer[0m
+[ 93%] [32m[1mLinking CXX executable ../../bin/rtabmap-epipolar_geometry[0m
+[ 93%] Built target odometryViewer
+[ 93%] [32mBuilding CXX object tools/Matcher/CMakeFiles/matcher.dir/main.cpp.o[0m
+[ 93%] Built target epipolar_geometry
+[ 93%] [32mBuilding CXX object examples/BOWMapping/CMakeFiles/bow_mapping.dir/main.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable ../../bin/rtabmap-dataRecorder[0m
+[ 93%] [32m[1mLinking CXX executable ../../bin/rtabmap-calibration[0m
+[ 93%] Built target dataRecorder
+[ 93%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[ 93%] Built target rgbd_mapping_autogen
+[ 94%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[ 94%] Built target wifi_mapping_autogen
+[ 94%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[ 94%] Built target noEventsExample_autogen
+[ 94%] Built target calibration
+[ 95%] [34m[1mAutomatic MOC and UIC for target lidar_mapping[0m
+[ 95%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/rgbd_mapping_autogen/mocs_compilation.cpp.o[0m
+[ 95%] Built target lidar_mapping_autogen
+[ 95%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/wifi_mapping_autogen/mocs_compilation.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-bow_mapping[0m
+[ 95%] Built target bow_mapping
+[ 96%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/noEventsExample_autogen/mocs_compilation.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable ../../bin/rtabmap-matcher[0m
+[ 96%] Built target matcher
+[ 97%] [32mBuilding CXX object examples/LidarMapping/CMakeFiles/lidar_mapping.dir/lidar_mapping_autogen/mocs_compilation.cpp.o[0m
+[ 97%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/main.cpp.o[0m
+[ 98%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/main.cpp.o[0m
+[ 98%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/main.cpp.o[0m
+[ 98%] [32mBuilding CXX object examples/LidarMapping/CMakeFiles/lidar_mapping.dir/main.cpp.o[0m
+[ 98%] [32m[1mLinking CXX executable ../../bin/rtabmap-wifi_mapping[0m
+[ 98%] Built target wifi_mapping
+[ 99%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_mapping[0m
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-noEventsExample[0m
+[100%] Built target rgbd_mapping
+[100%] Built target noEventsExample
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-lidar_mapping[0m
+[100%] Built target lidar_mapping
+-- Install configuration: "Release"
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21.9
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_utilite.so
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UProcessInfo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMutex.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsHandler.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadC.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix/UThreadC.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMath.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UConversion.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadNode.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UException.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEvent.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UFile.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDestroyer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/ULogger.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDirectory.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UStl.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsSender.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UTimer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThread.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UObjDeletionThread.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UWin32.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UThreadC.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/USemaphore.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UVariant.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsManager.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UtiLite.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/utilite_export.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets-release.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-res_tool
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_core.so.0.21.9
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_core.so.0.21
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_core.so.0.21.9" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_core.so
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationInfo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/BayesFilter.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Link.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoCameraModel.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Stereo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraModel.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Lidar.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/lidar
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/lidar/LidarVLP16.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBReader.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VisualWord.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalMap.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryInfo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCapture.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OccupancyGrid.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/GridMap.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/CloudMap.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OctoMap.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_features.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCaptureInfo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoFlyCapture2.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZed.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNICV.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraImages.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoVideo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraVideo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect2.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRGBDImages.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraMyntEye.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraSeerSense.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenni.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4A.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoImages.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense2.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoTara.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraDepthAI.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4W2.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoDC1394.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNI2.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZedOC.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Signature.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorEvent.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUThread.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GPS.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerTORO.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCVSBA.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerG2O.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCeres.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerGTSAM.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OccupancyGrid.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapEvent.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/frame_projector.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/slam_calibrator.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/discrete_depth_distortion_model.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryEvent.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Landmark.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Rtabmap.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_correspondences.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriverSqlite3.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM3.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMono.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFLOAM.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2M.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryDVO.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpen3D.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryViso2.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOkvis.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2F.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM2.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryVINS.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpenVINS.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryLOAM.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMSCKF.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFovis.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_transforms.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PDALWriter.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Registration.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorData.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriver.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_mapping.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Statistics.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GainCompensator.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraInfo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGBD.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryThread.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptor.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMU.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGrid.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Optimizer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraEvent.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Graph.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PythonInterface.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/MarkerDetector.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_surface.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Memory.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Camera.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraThread.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/FlannIndex.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EnvSensor.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GeodeticCoords.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LASWriter.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Transform.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Odometry.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraStereo.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Image.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationIcp.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCaptureThread.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGB.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParamEvent.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapThread.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoBM.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoSGBM.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/stereoRectifyFisheye.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Compression.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/UserDataEvent.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_filtering.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_motion_estimation.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Features2d.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EpipolarGeometry.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d.hpp
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_surface.hpp
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/LocalMapMaker.hpp
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_mapping.hpp
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Parameters.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUFilter.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGridMaker.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Recovery.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParticleFilter.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VWDictionary.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_registration.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util2d.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptorExtractor.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LaserScan.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationVis.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ProgressState.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoDense.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OctoMap.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Version.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/rtabmap_core_export.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets-release.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.9
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_gui.so.0.21
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.9" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/librtabmap_gui.so
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PdfPlot.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ParametersToolBox.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditConstraintDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ImageView.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/KeypointItem.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportCloudsDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LinkRefiningDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CreateSimpleCalibrationDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerInteractorStyle.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportBundlerDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DepthCalibrationDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PreferencesDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/OdometryViewer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MainWindow.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MapVisibilityWidget.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ConsoleWidget.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LoopClosureViewer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/GraphViewer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ProgressDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/StatsToolBox.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditDepthArea.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocWidget.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DatabaseViewer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CalibrationDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerCellPicker.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/RecoveryState.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditMapArea.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocSubView.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/TexturingState.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CameraViewer.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/AboutDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PostProcessingDialog.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DataRecorder.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UCv2Qt.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UImageView.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UPlot.h
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+-- Up-to-date: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/rtabmap_gui_export.h
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets-release.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-console
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-console" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-extractObject
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-extractObject" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-camera
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-camera" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-kitti_dataset
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-kitti_dataset" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-rgbd_dataset
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-rgbd_dataset" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-euroc_dataset
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-euroc_dataset" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-recovery
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-recovery" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-reprocess
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-reprocess" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-export
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-export" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-report
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-report" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-info
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-info" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-rgbd_camera
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-rgbd_camera" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-lidar_viewer
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-lidar_viewer" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-databaseViewer
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-databaseViewer" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-odometryViewer
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-odometryViewer" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-dataRecorder
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-dataRecorder" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-calibration
+-- Set runtime path of "/home/shrirag10/rtab_ws/install/rtabmap/bin/rtabmap-calibration" to ""
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapTargets.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfigVersion.cmake
+-- Installing: /home/shrirag10/rtab_ws/install/rtabmap/share/rtabmap/package.xml
