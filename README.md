@@ -1,5 +1,8 @@
 # RTAB-Map SLAM Implementation with ZEDM Camera
 
+![Screenshot from 2025-01-28 15-18-26](https://github.com/user-attachments/assets/cdd96b75-fb26-42a9-8613-8155e821fe45)
+
+
 This project implemented and evaluated the RTAB-Map (Real-Time Appearance-Based Mapping) SLAM algorithm using a ZEDM stereo camera. The objective was to assess the algorithm's performance in real-world settings by generating an accurate 3D map.  
 
 The project began with an initial evaluation of RTAB-Map using the EUROC dataset, followed by mapping a classroom at Northeastern University. The ZEDM stereo camera's depth-sensing capabilities enabled detailed 3D reconstruction. However, vibrations from the carpeted floor introduced noise, affecting map alignment. To address this, the camera was mounted on a rolling chair to reduce environmental noise.  
